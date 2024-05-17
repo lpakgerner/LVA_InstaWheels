@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>0</order>
+        <placeholder/>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description/>
+        <size>lg</size>
+        <sp_column display_value="1">87b2e07887860e90354abaa6cebb3518</sp_column>
+        <sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-06 01:00:28</sys_created_on>
+        <sys_id>47b2e07887860e90354abaa6cebb351b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>How can we help?</sys_name>
+        <sys_package display_value="Loaner Vehicle App upgraded" source="x_1327411_loaner_v">a640357287a98e10354abaa6cebb35fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle App upgraded">a640357287a98e10354abaa6cebb35fb</sys_scope>
+        <sys_update_name>sp_instance_ais_47b2e07887860e90354abaa6cebb351b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-06 01:00:28</sys_updated_on>
+        <title>How can we help?</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=47b2e07887860e90354abaa6cebb351b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle App upgraded">a640357287a98e10354abaa6cebb35fb</application>
+        <file_path/>
+        <instance_id>d88b99ccdbf357800e785d00cf961933</instance_id>
+        <instance_name>dev68654</instance_name>
+        <name>sp_instance_ais_47b2e07887860e90354abaa6cebb351b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais"><sp_instance_ais action="INSERT_OR_UPDATE"><active>true</active><ai_search_source_filter/><class_name/><color>default</color><css/><disable_all_suggestions>false</disable_all_suggestions><glyph/><id/><order>0</order><placeholder/><roles/><search_application/><search_results_configuration/><short_description/><size>lg</size><sp_column display_value="1">87b2e07887860e90354abaa6cebb3518</sp_column><sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget><spell_check_font_size>xl</spell_check_font_size><sys_class_name>sp_instance_ais</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-06 01:00:28</sys_created_on><sys_id>47b2e07887860e90354abaa6cebb351b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>How can we help?</sys_name><sys_package display_value="Loaner Vehicle App upgraded" source="x_1327411_loaner_v">a640357287a98e10354abaa6cebb35fb</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle App upgraded">a640357287a98e10354abaa6cebb35fb</sys_scope><sys_update_name>sp_instance_ais_47b2e07887860e90354abaa6cebb351b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-06 01:00:28</sys_updated_on><title>How can we help?</title><url/><widget_parameters/></sp_instance_ais><sys_translated_text action="delete_multiple" query="documentkey=47b2e07887860e90354abaa6cebb351b"/></record_update>]]></payload>
+        <payload_hash>1661513661</payload_hash>
+        <record_name>How can we help?</record_name>
+        <reverted_from/>
+        <source>b6c935b287ed8e10354abaa6cebb3555</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-06 01:00:28</sys_created_on>
+        <sys_id>c3b2e07887860e90354abaa6cebb351e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f4b6a99540000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-06 01:00:28</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>c7b2e078e0860e9029992803f234301d</update_guid>
+        <update_guid_history>c7b2e078e0860e9029992803f234301d:1661513661</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="How can we help?">ce2fcd1d8782ce90354abaa6cebb3564</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-07 17:31:31</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>58ac03682789471abc61e5812bb42311</sys_id>
+        <sys_metadata>47b2e07887860e90354abaa6cebb351b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>How can we help?</sys_name>
+        <sys_package display_value="Loaner Vehicle App upgraded" source="x_1327411_loaner_v">a640357287a98e10354abaa6cebb35fb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle App upgraded">a640357287a98e10354abaa6cebb35fb</sys_scope>
+        <sys_scope_delete display_value="">6d19607d6ebd4408bca06eabb9f3dc24</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_47b2e07887860e90354abaa6cebb351b</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_47b2e07887860e90354abaa6cebb351b">c3b2e07887860e90354abaa6cebb351e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-07 17:31:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

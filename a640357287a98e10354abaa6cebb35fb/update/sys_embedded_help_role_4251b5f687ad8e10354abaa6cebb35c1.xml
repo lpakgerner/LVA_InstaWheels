@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1327411_loaner_v.lva_team" name="x_1327411_loaner_v.lva_team">2031f1f687ad8e10354abaa6cebb35ad</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-17 15:20:22</sys_created_on>
+        <sys_id>4251b5f687ad8e10354abaa6cebb35c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2031f1f687ad8e10354abaa6cebb35ad</sys_name>
+        <sys_package display_value="Loaner Vehicle App upgraded" source="x_1327411_loaner_v">a640357287a98e10354abaa6cebb35fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle App upgraded">a640357287a98e10354abaa6cebb35fb</sys_scope>
+        <sys_update_name>sys_embedded_help_role_4251b5f687ad8e10354abaa6cebb35c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-17 15:20:22</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

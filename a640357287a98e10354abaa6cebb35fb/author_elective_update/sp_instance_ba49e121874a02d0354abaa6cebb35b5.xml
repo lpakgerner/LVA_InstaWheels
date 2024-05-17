@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">ae49e121874a02d0354abaa6cebb35a6</sp_column>
+        <sp_widget display_value="KB Top Rated">3c817b52cb30020000f8d856634c9cfb</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-08 14:04:11</sys_created_on>
+        <sys_id>ba49e121874a02d0354abaa6cebb35b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB Top rated</sys_name>
+        <sys_package display_value="Loaner Vehicle App upgraded" source="x_1327411_loaner_v">a640357287a98e10354abaa6cebb35fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle App upgraded">a640357287a98e10354abaa6cebb35fb</sys_scope>
+        <sys_update_name>sp_instance_ba49e121874a02d0354abaa6cebb35b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 14:04:11</sys_updated_on>
+        <title>KB Top rated</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=ba49e121874a02d0354abaa6cebb35b5"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle App upgraded">a640357287a98e10354abaa6cebb35fb</application>
+        <file_path/>
+        <instance_id>d88b99ccdbf357800e785d00cf961933</instance_id>
+        <instance_name>dev68654</instance_name>
+        <name>sp_instance_ba49e121874a02d0354abaa6cebb35b5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">ae49e121874a02d0354abaa6cebb35a6</sp_column><sp_widget display_value="KB Top Rated">3c817b52cb30020000f8d856634c9cfb</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-08 14:04:11</sys_created_on><sys_id>ba49e121874a02d0354abaa6cebb35b5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>KB Top rated</sys_name><sys_package display_value="Loaner Vehicle App upgraded" source="x_1327411_loaner_v">a640357287a98e10354abaa6cebb35fb</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle App upgraded">a640357287a98e10354abaa6cebb35fb</sys_scope><sys_update_name>sp_instance_ba49e121874a02d0354abaa6cebb35b5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-08 14:04:11</sys_updated_on><title>KB Top rated</title><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=ba49e121874a02d0354abaa6cebb35b5"/></record_update>]]></payload>
+        <payload_hash>-1564417464</payload_hash>
+        <record_name>KB Top rated</record_name>
+        <reverted_from/>
+        <source>b6c935b287ed8e10354abaa6cebb3555</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-08 14:04:11</sys_created_on>
+        <sys_id>3a49e121874a02d0354abaa6cebb35b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f5884d3d10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 14:04:11</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>3e49e1214b4a02d052a0cf4ef939b3b6</update_guid>
+        <update_guid_history>3e49e1214b4a02d052a0cf4ef939b3b6:-1564417464</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="KB Top rated">ceeae961874a02d0354abaa6cebb354b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-08 14:11:13</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>51911eda6e064ab0a45864d7492d4100</sys_id>
+        <sys_metadata>ba49e121874a02d0354abaa6cebb35b5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB Top rated</sys_name>
+        <sys_package display_value="Loaner Vehicle App upgraded" source="x_1327411_loaner_v">a640357287a98e10354abaa6cebb35fb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle App upgraded">a640357287a98e10354abaa6cebb35fb</sys_scope>
+        <sys_scope_delete display_value="">6d19607d6ebd4408bca06eabb9f3dc24</sys_scope_delete>
+        <sys_update_name>sp_instance_ba49e121874a02d0354abaa6cebb35b5</sys_update_name>
+        <sys_update_version display_value="sp_instance_ba49e121874a02d0354abaa6cebb35b5">3a49e121874a02d0354abaa6cebb35b7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 14:11:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

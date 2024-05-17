@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">47b2e07887860e90354abaa6cebb3540</sp_column>
+        <sp_widget display_value="Current Status">1e699082d7001200a9addd173e24d4e3</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-06 01:00:28</sys_created_on>
+        <sys_id>cbb2e07887860e90354abaa6cebb3542</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Current Status</sys_name>
+        <sys_package display_value="Loaner Vehicle App upgraded" source="x_1327411_loaner_v">a640357287a98e10354abaa6cebb35fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle App upgraded">a640357287a98e10354abaa6cebb35fb</sys_scope>
+        <sys_update_name>sp_instance_cbb2e07887860e90354abaa6cebb3542</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-07 20:40:10</sys_updated_on>
+        <title>Current Status</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"standalone": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_outage_details": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=cbb2e07887860e90354abaa6cebb3542"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle App upgraded">a640357287a98e10354abaa6cebb35fb</application>
+        <file_path/>
+        <instance_id>d88b99ccdbf357800e785d00cf961933</instance_id>
+        <instance_name>dev68654</instance_name>
+        <name>sp_instance_cbb2e07887860e90354abaa6cebb3542</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;47b2e07887860e90354abaa6cebb3540&lt;/sp_column&gt;&lt;sp_widget display_value="Current Status"&gt;1e699082d7001200a9addd173e24d4e3&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-06 01:00:28&lt;/sys_created_on&gt;&lt;sys_id&gt;cbb2e07887860e90354abaa6cebb3542&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Current Status&lt;/sys_name&gt;&lt;sys_package display_value="Loaner Vehicle App upgraded" source="x_1327411_loaner_v"&gt;a640357287a98e10354abaa6cebb35fb&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Loaner Vehicle App upgraded"&gt;a640357287a98e10354abaa6cebb35fb&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_cbb2e07887860e90354abaa6cebb3542&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-07 20:40:10&lt;/sys_updated_on&gt;&lt;title&gt;Current Status&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"standalone": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_outage_details": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=cbb2e07887860e90354abaa6cebb3542"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1383323740</payload_hash>
+        <record_name>Current Status</record_name>
+        <reverted_from/>
+        <source>b6c935b287ed8e10354abaa6cebb3555</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-07 20:40:10</sys_created_on>
+        <sys_id>ed5af5158786ce90354abaa6cebb3586</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f54c901180000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-07 20:40:10</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>a55af5157c86ce909e03c36c02bd5786</update_guid>
+        <update_guid_history>a55af5157c86ce909e03c36c02bd5786:1383323740,122f855d1882ce90abccb93f3f03c53f:-428837477,c3b2e07871860e902d6bf5f1fc6f5f44:2053968602</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Current Status">fba435ed874a02d0354abaa6cebb35ec</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-08 14:53:58</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>10642d88a1b347e08554b0da9c949e90</sys_id>
+        <sys_metadata>cbb2e07887860e90354abaa6cebb3542</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Current Status</sys_name>
+        <sys_package display_value="Loaner Vehicle App upgraded" source="x_1327411_loaner_v">a640357287a98e10354abaa6cebb35fb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle App upgraded">a640357287a98e10354abaa6cebb35fb</sys_scope>
+        <sys_scope_delete display_value="">6d19607d6ebd4408bca06eabb9f3dc24</sys_scope_delete>
+        <sys_update_name>sp_instance_cbb2e07887860e90354abaa6cebb3542</sys_update_name>
+        <sys_update_version display_value="sp_instance_cbb2e07887860e90354abaa6cebb3542">ed5af5158786ce90354abaa6cebb3586</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 14:53:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

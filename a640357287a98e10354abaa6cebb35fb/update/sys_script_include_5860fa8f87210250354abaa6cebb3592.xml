@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1327411_loaner_v.lvaUserInfoPopulate</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>lvaUserInfoPopulate</name>
+        <script><![CDATA[var lvaUserInfoPopulate = Class.create();
+lvaUserInfoPopulate.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+
+// This code is not used - not sure if this is entirely correct. 
+/*	fetchUserName: function(){
+		var userID = this.getParameter('sysparm_user_sys_id');
+		var result = '';
+
+		var grUserInfo = new GlideRecord('sys_user');
+		grUserInfo.addQuery('sys_id', userID);
+		grUserInfo.query(); 
+
+		if (grUserInfo.next()){
+
+			result = grUserInfo.getValue('user_name'); 
+
+		} 
+		return result; 
+	}, 
+*/
+
+	getLocation: function(){
+		var location = ''; 
+		var userProfile = this.getParameter('sysparm_user_sys_id');
+
+		var grLocation = new GlideRecord('sys_user');
+		grLocation.addQuery('sys_id', userProfile);
+		grLocation.query(); 
+
+		if (grLocation.next()){
+
+			location = grLocation.getValue('location'); 
+
+		} 
+		return location;
+
+	},
+
+	getUserPhone: function(){
+		var phoneNumber = ''; 
+		var userProfile = this.getParameter('sysparm_user_sys_id');
+
+		var grPhoneNumber = new GlideRecord('sys_user');
+		grPhoneNumber.addQuery('sys_id', userProfile);
+		grPhoneNumber.query(); 
+
+		if (grPhoneNumber.next()){
+
+			phoneNumber = grPhoneNumber.getValue('phone'); 
+
+		} 
+		return phoneNumber;
+
+
+	},
+
+	getUserEmail: function(){
+		var userEmail = ''; 
+		var userProfile = this.getParameter('sysparm_user_sys_id');
+
+		var grEmail = new GlideRecord('sys_user');
+		grEmail.addQuery('sys_id', userProfile);
+		grEmail.query(); 
+
+		if (grEmail.next()){
+
+			userEmail = grEmail.getValue('email'); 
+
+		} 
+		return userEmail;
+
+	},
+
+    type: 'lvaUserInfoPopulate'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-18 14:36:36</sys_created_on>
+        <sys_id>5860fa8f87210250354abaa6cebb3592</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>lvaUserInfoPopulate</sys_name>
+        <sys_package display_value="Loaner Vehicle App upgraded" source="x_1327411_loaner_v">a640357287a98e10354abaa6cebb35fb</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Loaner Vehicle App upgraded">a640357287a98e10354abaa6cebb35fb</sys_scope>
+        <sys_update_name>sys_script_include_5860fa8f87210250354abaa6cebb3592</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-18 14:47:11</sys_updated_on>
+    </sys_script_include>
+</record_update>

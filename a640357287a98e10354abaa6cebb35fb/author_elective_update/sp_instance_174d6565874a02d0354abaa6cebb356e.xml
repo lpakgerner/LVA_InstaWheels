@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">6649e121874a02d0354abaa6cebb35a0</sp_column>
+        <sp_widget display_value="KB Categories - KBv3">ee307070d7201200a9addd173e24d4da</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-08 14:21:42</sys_created_on>
+        <sys_id>174d6565874a02d0354abaa6cebb356e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Loaner Vehicle App upgraded" source="x_1327411_loaner_v">a640357287a98e10354abaa6cebb35fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle App upgraded">a640357287a98e10354abaa6cebb35fb</sys_scope>
+        <sys_update_name>sp_instance_174d6565874a02d0354abaa6cebb356e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 14:21:42</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=174d6565874a02d0354abaa6cebb356e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle App upgraded">a640357287a98e10354abaa6cebb35fb</application>
+        <file_path/>
+        <instance_id>d88b99ccdbf357800e785d00cf961933</instance_id>
+        <instance_name>dev68654</instance_name>
+        <name>sp_instance_174d6565874a02d0354abaa6cebb356e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">6649e121874a02d0354abaa6cebb35a0</sp_column><sp_widget display_value="KB Categories - KBv3">ee307070d7201200a9addd173e24d4da</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-08 14:21:42</sys_created_on><sys_id>174d6565874a02d0354abaa6cebb356e</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Loaner Vehicle App upgraded" source="x_1327411_loaner_v">a640357287a98e10354abaa6cebb35fb</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle App upgraded">a640357287a98e10354abaa6cebb35fb</sys_scope><sys_update_name>sp_instance_174d6565874a02d0354abaa6cebb356e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-08 14:21:42</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=174d6565874a02d0354abaa6cebb356e"/></record_update>]]></payload>
+        <payload_hash>190058198</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>b6c935b287ed8e10354abaa6cebb3555</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-08 14:21:42</sys_created_on>
+        <sys_id>d74d6565874a02d0354abaa6cebb3570</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f5894de9d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 14:21:42</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>db4d6565a04a02d0e69f64500f54936f</update_guid>
+        <update_guid_history>db4d6565a04a02d0e69f64500f54936f:190058198</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">075de165874a02d0354abaa6cebb35d8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-08 14:21:57</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>054d0cf306dd4ec388a24ad410067ff1</sys_id>
+        <sys_metadata>174d6565874a02d0354abaa6cebb356e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Loaner Vehicle App upgraded" source="x_1327411_loaner_v">a640357287a98e10354abaa6cebb35fb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle App upgraded">a640357287a98e10354abaa6cebb35fb</sys_scope>
+        <sys_scope_delete display_value="">6d19607d6ebd4408bca06eabb9f3dc24</sys_scope_delete>
+        <sys_update_name>sp_instance_174d6565874a02d0354abaa6cebb356e</sys_update_name>
+        <sys_update_version display_value="sp_instance_174d6565874a02d0354abaa6cebb356e">d74d6565874a02d0354abaa6cebb3570</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 14:21:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

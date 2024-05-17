@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Loaner Vehicle Catalog</name>
+        <order>100</order>
+        <roles>x_1327411_loaner_v.lva_team,x_1327411_loaner_v.lva_servicing</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-17 15:59:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>996a35b287ed8e10354abaa6cebb355f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Loaner Vehicle Request and Inventory</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Vehicle App upgraded" source="x_1327411_loaner_v">a640357287a98e10354abaa6cebb35fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle App upgraded">a640357287a98e10354abaa6cebb35fb</sys_scope>
+        <sys_update_name>sys_app_application_996a35b287ed8e10354abaa6cebb355f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-07 23:31:08</sys_updated_on>
+        <title>Loaner Vehicle Request and Inventory</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

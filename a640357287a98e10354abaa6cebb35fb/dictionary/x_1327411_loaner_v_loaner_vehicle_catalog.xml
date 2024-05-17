@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="fc2af9b287ed8e10354abaa6cebb3552" extends="task" label="Loaner Vehicle Catalog" max_length="40" name="x_1327411_loaner_v_loaner_vehicle_catalog" type="collection">
+        <element label="Image" max_length="40" name="image" type="user_image"/>
+        <element label="Vehicle Description" mandatory="true" max_length="1000" name="vehicle_description" type="string"/>
+        <element label="Vehicle Make" mandatory="true" max_length="100" name="vehicle_make" type="string"/>
+        <element label="Vehicle Model" mandatory="true" max_length="100" name="vehicle_model" type="string"/>
+        <element choice="3" default="available" label="Vehicle Status" mandatory="true" max_length="40" name="vehicle_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Available" value="available"/>
+                <element inactive_on_update="false" label="Decommissioned" value="decommissioned"/>
+                <element inactive_on_update="false" label="Unavailable" value="unavailable"/>
+            </choice>
+        </element>
+        <element label="Vehicle Year" mandatory="true" max_length="100" name="vehicle_year" type="string"/>
+    </element>
+</database>

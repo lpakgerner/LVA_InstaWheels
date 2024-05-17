@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>kb</category>
+        <client_script><![CDATA[function($scope, $location,$rootScope, $timeout) {
+  /* widget controller */
+  var c = this;
+
+	if (c.data.selectedIndex == 0) //Populate kb_id as null when more one than KB is associates with Portal and no KB is selected.
+		$location.search('kb_id', c.data.kbId);
+	
+	// Update breadcrumbs with knowledge base name 
+	if (c.data.kbId && c.data.kbs.length > 1) {
+		c.data.breadcrumbs = [{label: c.data.kbName, url: '#'}];
+		
+	  //Add "All Knowledge" link to breadcrumbs only when multiple KBs are associated to portal.
+			c.data.breadcrumbs.unshift({label: c.data.kbBreadCrumbsMsg, url: '?id='+ c.data.kb_knowledge_page});	
+	} else
+		c.data.breadcrumbs = [{label: c.data.kbBreadCrumbsMsg, url: '#'}];
+	
+	//Update breadcrumbs
+	$timeout(function() {
+		$rootScope.$broadcast('sp.update.breadcrumbs', c.data.breadcrumbs);
+	});
+	
+	$scope.selectedKB = c.data.kbArr[c.data.selectedIndex];
+	//Refresh page by passing kb_id when KB is selected
+	$scope.changeKB = function (selectedKB) {
+		$timeout(function() {
+			if (selectedKB.hasOwnProperty("id")) {
+				$location.search({kb_id: selectedKB.id, sys_id: null, id: c.data.kb_knowledge_page, kb_category: null});
+			}
+		});
+	}
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.category-widget {
+	border: 1px solid $panel-inner-border;
+  
+  .category-list {
+    .fa {
+      margin-right: 5px;
+    }
+    .l-h-1_6x {
+      line-height: 1.6em;
+    }
+    a {
+			width: 100%;
+      vertical-align: middle;
+	    display: inline-block;
+    }
+    .list-group {
+      margin-bottom: 0;
+    }
+    .list-group-item {
+      padding: 0;
+      border: 0;
+      width: 100%;
+    }
+    .group-item {
+      padding: 10px 15px;
+    }
+    .group-item-default {
+      &amp;:hover, &amp;:focus {
+        background-color: darken($panel-default-heading-bg, 2%);
+      }
+    }
+    .group-item-primary {
+      &amp;:hover, &amp;:focus {
+        background-color: lighten($panel-primary-heading-bg, 40%);
+      }
+    }
+    .group-item-success {
+      &amp;:hover {
+        background-color: lighten($panel-success-heading-bg, 3%)
+      }
+    }
+    .group-item-info {
+      &amp;:hover, &amp;:focus {
+        background-color: lighten($panel-info-heading-bg, 3%)
+      }
+    }
+    .group-item-warning {
+      &amp;:hover, &amp;:focus {
+        background-color: $panel-warning-heading-bg
+      }
+    }
+    .group-item-danger {
+      &amp;:hover, &amp;:focus {
+        background-color: lighten($panel-danger-heading-bg, 3%)
+      }
+    }
+    
+    .sub-category-list {
+      .list-group-item {
+        background-color: inherit;
+      }
+    }
+    
+    .list-bg-default {
+        border-left: 15px solid $panel-default-heading-bg;
+      }
+      .list-bg-primary {
+        border-left: 15px solid lighten($panel-primary-heading-bg, 43%);
+      }
+      .list-bg-success {
+        border-left: 15px solid lighten($panel-success-heading-bg, 6%);
+      }
+      .list-bg-info {
+        border-left: 15px solid lighten($panel-info-heading-bg, 6%);
+      }
+      .list-bg-warning {
+        border-left: 15px solid lighten($panel-warning-heading-bg, 3%);
+      }
+      .list-bg-danger {
+        border-left: 15px solid lighten($panel-danger-heading-bg, 6%);
+      }
+    
+    .list-bg-default {
+      background-color: $panel-default-heading-bg;
+    }
+    .list-bg-primary {
+      background-color: lighten($panel-primary-heading-bg, 43%);
+    }
+    .list-bg-success {
+      background-color: lighten($panel-success-heading-bg, 6%);
+    }
+    .list-bg-info {
+      background-color: lighten($panel-info-heading-bg, 6%);
+    }
+    .list-bg-warning {
+      background-color: lighten($panel-warning-heading-bg, 3%);
+    }
+    .list-bg-danger {
+      background-color: lighten($panel-danger-heading-bg, 6%);
+    }
+  }
+}
+.panel-primary .badge {
+  background-color: $panel-primary-heading-bg;
+  color: white;
+}
+.panel-default .badge {
+  background-color: $panel-default-text;
+  color: white
+}
+.panel-success .badge {
+  background-color:  $panel-success-text;
+  color: white;
+}
+.panel-info .badge {
+  background-color: $panel-info-text;
+  color: white;
+}
+.panel-warning .badge {
+  background-color: $panel-warning-text;
+  color: white;
+}
+.panel-danger .badge {
+  background-color: $panel-danger-text;
+  color: white;
+}
+.category-list .badge {
+  text-align: right;
+}
+.text-default {
+  color: $text-muted;
+}
+.select2-choice {
+  border-radius: 0px;
+  padding-left: 15px;
+}
+
+  
+
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Copy of KB Knowledge Bases</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	data.kbBreadCrumbsMsg = gs.getMessage("Knowledge Base");
+	
+	// Get Knowledge Bases Associated to Portal.
+	
+	var kbId = $sp.getParameter('kb_id');
+	var kbArr = [{id: null, title: gs.getMessage("All")}];
+	data.selectedIndex =0;
+	data.breadcrumb = [];
+	
+	// Get Accessible Knowledge Bases Associated to Portal.
+	var kbIds = $sp.getKnowledgeBases();
+	data.kbs = kbIds.split(',');
+	
+	if(data.kbs.length > 1){
+		data.kbBreadCrumbsMsg = gs.getMessage("All Knowledge Bases");
+	}
+	
+	data.kb_knowledge_page = $sp.getDisplayValue("kb_knowledge_page") || "kb_view";
+	var kb;
+	
+	data.kbs.forEach(function(kbSysId, index) {
+		var gr = new GlideRecord("kb_knowledge_base");
+		if (gr.get(kbSysId)){
+			 kb = gr.getDisplayValue("title");
+		   var kbObj = {id: kbSysId, title: kb};
+		   kbArr.push(kbObj);
+		}
+		if (kbId == kbSysId){ 
+			data.selectedIndex = index + 1;
+			data.kbName = kb;
+		}
+	});
+	data.kbArr = kbArr;
+	data.kbId=kbId;
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-08 17:25:24</sys_created_on>
+        <sys_id>16579269870e02d0354abaa6cebb35ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of KB Knowledge Bases</sys_name>
+        <sys_package display_value="Loaner Vehicle App upgraded" source="x_1327411_loaner_v">a640357287a98e10354abaa6cebb35fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle App upgraded">a640357287a98e10354abaa6cebb35fb</sys_scope>
+        <sys_update_name>sp_widget_16579269870e02d0354abaa6cebb35ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 17:25:24</sys_updated_on>
+        <template><![CDATA[<div ng-if="c.data.kbArr.length > 2" ng-class="{'hidden-xs' : hideCategoryWidgetInXS}" class="panel panel-{{::options.color}} category-widget no-border">
+  <div class="panel-primary panel-heading">
+    <h2 class="h4 panel-title" ng-bind="::c.options.title">
+    </h2>
+  </div>
+  <ul class="list-group category-list" role="list" aria-label="${Catalogs}">
+    <li role="listitem" class="list-group-item text-overflow-ellipsis" ng-include="'kb-template.html'"></li>
+  </ul>
+</div>
+<script type="text/ng-template" id="kb-template.html">
+  <select class="sn-select-basic" ng-change="changeKB(selectedKB)" ng-model="selectedKB" ng-options="kb.title for kb in c.data.kbArr"></select>
+</script>]]></template>
+    </sp_widget>
+</record_update>

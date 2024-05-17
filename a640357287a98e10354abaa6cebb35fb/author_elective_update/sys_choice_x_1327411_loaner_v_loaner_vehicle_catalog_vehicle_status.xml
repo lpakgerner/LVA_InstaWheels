@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="vehicle_status" table="x_1327411_loaner_v_loaner_vehicle_catalog" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>vehicle_status</element>
+            <name>x_1327411_loaner_v_loaner_vehicle_catalog</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-17 16:04:29</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>vehicle_status</sys_name>
+            <sys_package display_value="Loaner Vehicle App upgraded" source="x_1327411_loaner_v">a640357287a98e10354abaa6cebb35fb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Loaner Vehicle App upgraded">a640357287a98e10354abaa6cebb35fb</sys_scope>
+            <sys_update_name>sys_choice_x_1327411_loaner_v_loaner_vehicle_catalog_vehicle_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-17 16:04:29</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vehicle_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Available</label>
+            <language>en</language>
+            <name>x_1327411_loaner_v_loaner_vehicle_catalog</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-17 16:04:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-17 16:05:09</sys_updated_on>
+            <value>available</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vehicle_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Decommissioned</label>
+            <language>en</language>
+            <name>x_1327411_loaner_v_loaner_vehicle_catalog</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-17 16:05:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-17 16:05:24</sys_updated_on>
+            <value>decommissioned</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vehicle_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unavailable</label>
+            <language>en</language>
+            <name>x_1327411_loaner_v_loaner_vehicle_catalog</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-17 16:04:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-17 16:05:18</sys_updated_on>
+            <value>unavailable</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
